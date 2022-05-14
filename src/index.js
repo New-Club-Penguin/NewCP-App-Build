@@ -30,9 +30,11 @@ function createWindow () {
     minHeight: 640,
     width: 1200,
     height: 800,
+    titleBarStyle: 'hiddenInset',
     show: false,
     autoHideMenuBar: true,
     webPreferences: {
+        plugins: true,
         nodeIntegration: false,
         contextIsolation: true,
         devTools: false
