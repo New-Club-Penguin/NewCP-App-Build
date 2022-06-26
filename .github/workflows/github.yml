@@ -1,7 +1,7 @@
 name: Discord Webhook Messages
 on:
   release:
-    types: [published]
+    types: [released]
 jobs:
   run:
     runs-on: ubuntu-latest
